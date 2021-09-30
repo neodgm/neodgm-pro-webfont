@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'NeoDunggeunmo Pro';
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  src: url('neodgm_pro.woff2') format('woff2'),
+       url('neodgm_pro.woff') format('woff'),
+       url('neodgm_pro.ttf') format('truetype');
+}

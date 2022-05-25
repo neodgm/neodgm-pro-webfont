@@ -15,12 +15,23 @@
 
     ```html
     <!-- Neo둥근모 Pro -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@1.011/neodgm_pro/style.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@1.020/neodgm_pro/style.css">
     ```
 
     ```css
     /* Neo둥근모 Pro */
-    @import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@1.011/neodgm_pro/style.css');
+    @import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@1.020/neodgm_pro/style.css');
+    ```
+
+    웹사이트에서 항상 최신 버전의 웹 폰트를 사용하고자 하는 경우, 버전 태그
+    대신 `latest` 태그를 사용하세요.
+
+    ```html
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@latest/neodgm_pro/style.css">
+    ```
+
+    ```css
+    @import url('//cdn.jsdelivr.net/gh/neodgm/neodgm-pro-webfont@latest/neodgm_pro/style.css');
     ```
 
 2. 이제 여러분의 웹 페이지에서 웹 폰트를 사용할 수 있습니다.
@@ -37,7 +48,7 @@
 
 ## 라이선스
 
-Copyright &copy; 2021, Eunbin Jeong (Dalgona.) &lt;project-neodgm@dalgona.dev&gt;
+Copyright &copy; 2022, Eunbin Jeong (Dalgona.) &lt;project-neodgm@dalgona.dev&gt;
 
 이 저장소를 통해 제공되는 모든 글꼴 파일과 웹 폰트 키트에는 SIL Open Font
 License 1.1이 적용됩니다. `LICENSE.txt` 파일에 이 라이선스의 전문이 저장되어
